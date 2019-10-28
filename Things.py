@@ -3,7 +3,7 @@
 # Concatenation
 #    2 or more strings and put them together
 
-firstName = "Wilma"
+firstName = "Eddy"
 lastName = "Flintstone"
 
 print(firstName + " " + lastName)
