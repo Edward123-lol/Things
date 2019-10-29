@@ -78,7 +78,6 @@ else:
 print(chr(75))
 print(ord('&'))
 
-from mapper!!! import
+from mapper import *
 print(letterToIndex('M'))
 
-there_is_a_secret_message_i_want_to_transmit
