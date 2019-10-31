@@ -47,3 +47,26 @@ def scramble2Decrypt(cipherText):
 
 def encryptMessage():
     msg = input("Enter the message to encrypt.")
+    cipherText = scramble2Encrypt(msg)
+    print("The encrypted message is:", cipherText)
+
+print(encryptMessage())
+
+
+def ceaserEncrpyt():
+    input("message")
+    if "a":print("a")
+    if "b": print("f")
+    if "c": print("e")
+    if "b": print("f")
+    if "c": print("g")
+
+print(ceaserEncrpyt())
+
+def ceaserCipher(val):
+    input("Message")
+    Encryption = ''
+    for E in val:
+        num = ord(E)
+
+        if
