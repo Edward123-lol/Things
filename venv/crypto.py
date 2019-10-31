@@ -69,4 +69,10 @@ def ceaserCipher(val):
     for E in val:
         num = ord(E)
 
-        if
+        if num == 122:
+            newnum == 97
+        elif num == 90:
+            newnum = 65
+        else:
+            newnum = + 1
+        Encryption = Encryption + chr(nerwnum)
