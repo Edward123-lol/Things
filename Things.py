@@ -1,10 +1,11 @@
+
 # Strings
 
 # Concatenation
 #    2 or more strings and put them together
 
-firstName = "Edward"
-lastName = "Jang"
+firstName = "Wilma"
+lastName = "Flintstone"
 
 print(firstName + " " + lastName)
 
@@ -79,11 +80,10 @@ print(chr(75))
 print(ord('&'))
 
 from mapper import *
-print(letterToIndex('m'))
-
-print(letterToIndex(44))
-
+print(letterToIndex('M'))
 
 from crypto import *
 
 print(scramble2Encrypt("THE MEETING IS AT FIVE OCLOCK"))
+print(scramble2Encrypt("H ETN SA IEOLCTEMEIGI TFV COK"))
+print(scramble2Decrypt(scramble2Decrypt(" T AIOCEEG F OHENS ELTMIITVCK")))

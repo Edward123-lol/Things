@@ -31,25 +31,10 @@ def scramble2Decrypt(cipherText):
 
             return plainText
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def encryptMessage():
     msg = input("Enter the message to encrypt.")
     cipherText = scramble2Encrypt(msg)
     print("The encrypted message is:", cipherText)
-
 print(encryptMessage())
 
 
@@ -76,3 +61,20 @@ def ceaserCipher(val):
         else:
             newnum = + 1
         Encryption = Encryption + chr(nerwnum)
+    return Encryption
+
+print(ceaserEncrpyt('E'))
+
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+def ceaser(word):
+    encoded = ""
+    for ch in word:
+        index = alphabet.find(ch)
+        nextIndex = (index + 3) % 26
+        encrypt += alphabet[nextIndex]
+    return encryptMessage()
+
+print(ceaser("how was your evening"))
+print(ceaser("thats good"))
