@@ -79,5 +79,11 @@ print(chr(75))
 print(ord('&'))
 
 from mapper import *
-print(letterToIndex('M'))
+print(letterToIndex('m'))
 
+print(letterToIndex(44))
+
+
+from crypto import *
+
+print(scramble2Encrypt("THE MEETING IS AT FIVE OCLOCK"))

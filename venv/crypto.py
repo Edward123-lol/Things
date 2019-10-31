@@ -9,7 +9,7 @@ def scramble2Encrypt(plainText):
     for ch in plainText:
         if charCount % 2 == 0:
             evenChars = evenChars + ch
-            else:
+        else:
             oddChars = evenChars + ch
         charCount = charCount + 1
     cipherText = oddChars + evenChars
@@ -30,3 +30,25 @@ def scramble2Decrypt(cipherText):
             plainText = plainText + evenChars[-1]
 
             return plainText
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+plainText = input("What is your plainText?")
+shift = input("What is the shift?")
+
+def ceaser(plainText, shift):
+
+    for ch in plainText:
+        if ch
