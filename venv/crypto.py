@@ -45,10 +45,5 @@ def scramble2Decrypt(cipherText):
 
 
 
-plainText = input("What is your plainText?")
-shift = input("What is the shift?")
-
-def ceaser(plainText, shift):
-
-    for ch in plainText:
-        if ch
+def encryptMessage():
+    msg = input("Enter the message to encrypt.")
